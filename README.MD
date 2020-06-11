@@ -4,7 +4,7 @@
 
 ## 安装wsl2
 
-### 先更新2004 may update
+先更新2004 may update
 
 然后以管理员身份打开 PowerShell 并运行,以安装wsl和开启wsl2所需的“虚拟机平台”：
 
@@ -19,7 +19,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 wsl --set-default-version 2
 ```
 
-### 安装wsl发行版
+## 安装wsl发行版
 
 可以选择ubuntu等，但是这里选择消耗最低的alpine
 
@@ -33,7 +33,7 @@ net stop lxssmanager
 net start lxssmanager
 ```
 
-### 安装docker
+## 安装docker
 
 替换软件源为阿里镜像，提升安装速度
 
